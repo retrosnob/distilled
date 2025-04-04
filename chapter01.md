@@ -71,3 +71,8 @@ The symmetric difference is the set of items that are in one or the other but no
 `s.update` Adds the elements of a set.
 `s.remove` and `s.discard` do the same thing, except that `remove` raises an error if the argument is not in s.
 
+## Exiting the program by raising SystemExit
+
+The book suggests that `raise SystemExit()` is the correct way to force the exiting of a Python program. CGPT says that this is indeed correct and that it's what sys.exit() does under the hood. 
+
+`exit()` and  `quit()` are designed for use in interactive mode.
